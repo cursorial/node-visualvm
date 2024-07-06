@@ -1,0 +1,31 @@
+{
+  "name": "node-visualvm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/server.ts"
+  },
+  "dependencies": {
+    "@types/pidusage": "^2.0.5",
+    "chart.js": "^4.4.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "find-process": "^1.4.7",
+    "ps-list": "^8.1.1",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.14.10",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@types/socket.io": "^3.0.2",
+    "heapdump": "^0.3.15",
+    "pidusage": "^3.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.3",
+    "v8-profiler-next": "^1.10.0"
+  }
+}
